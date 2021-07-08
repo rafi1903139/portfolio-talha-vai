@@ -8,8 +8,20 @@ let btnSkills = document.getElementById("btnskills");
 let btnKnowledge = document.getElementById("btnknowledge");
 let btnrespon = document.getElementById("btnrespon");
 
+ btnAccomplish.style.color = "black";
+ 
+// btnSkills.style.color = "black";
+// btnKnowledge.style.color = "black";
+// btnrespon.style.color = "black";
+
+// #EFEFEF
+
 btnAccomplish.addEventListener('click',()=>{
     btnAccomplish.style.background = "white";
+    btnAccomplish.style.color = "black";
+    btnSkills.style.color = "#EFEFEF";
+    btnKnowledge.style.color = "#EFEFEF";
+    btnrespon.style.color = "#EFEFEF";
     btnSkills.style.background = "transparent";
     btnKnowledge.style.background = "transparent";
     btnrespon.style.background = "transparent";
@@ -25,6 +37,10 @@ btnAccomplish.addEventListener('click',()=>{
 
 btnSkills.addEventListener('click',()=>{
     btnSkills.style.background = "white";
+    btnAccomplish.style.color = "#EFEFEF";
+    btnSkills.style.color = "black";
+    btnKnowledge.style.color = "#EFEFEF";
+    btnrespon.style.color = "#EFEFEF";
     btnAccomplish.style.background = "transparent";
     btnKnowledge.style.background = "transparent";
     btnrespon.style.background = "transparent";
@@ -41,6 +57,10 @@ btnSkills.addEventListener('click',()=>{
 
 btnKnowledge.addEventListener('click',()=>{
     btnKnowledge.style.background = "white";
+    btnAccomplish.style.color = "#EFEFEF";
+    btnSkills.style.color = "#EFEFEF";
+    btnKnowledge.style.color = "black";
+    btnrespon.style.color = "#EFEFEF";
     btnAccomplish.style.background = "transparent";
     btnSkills.style.background = "transparent";
     btnrespon.style.background = "transparent";
@@ -56,6 +76,10 @@ btnKnowledge.addEventListener('click',()=>{
 
 btnrespon.addEventListener('click',()=>{
     btnrespon.style.background = "white";
+    btnAccomplish.style.color = "#EFEFEF";
+    btnSkills.style.color = "#EFEFEF";
+    btnKnowledge.style.color = "#EFEFEF";
+    btnrespon.style.color = "black";
     btnAccomplish.style.background = "transparent";
     btnKnowledge.style.background = "transparent";
     btnSkills.style.background = "transparent";
