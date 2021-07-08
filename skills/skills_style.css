@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    z-index: 1000;
+    width: 100%;
+}
+
+.intro-text h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+

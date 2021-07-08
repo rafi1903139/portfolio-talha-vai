@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar{
+    width: 100%;
+    z-index: 1000;
+}
+
+
+ .header h1{
+    text-align: center;
+}
+
+.nav-section{
+    width:  100%;
+    margin:0;
+    position: sticky;
+    top: 0;
+}
+
+.nav-section .container{
+    margin: 0;
+}
+
+.nav-section .experience-title{
+    width: 100%;
+    top: 1em;
+    position: sticky;
+    background: tomato;
+
+}
+
+.nav-section .experience-title ul{
+ 
+    display: flex;
+    font-size: 1.2em;
+    font-weight: 700;
+    list-style-type: none;
+   
+}
+
+.nav-section .experience-title ul > * {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    flex-grow: 1;
+    padding: .5em;
+   
+   
+    
+
+}
+
+
+.nav-section .experience-title ul a > *{
+    flex: 1;
+}
+.nav-section .experience-title ul a:first-child{
+    flex: 11;
+}
+
+.nav-section .experience-title ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    margin: 2em;
+}
+
+.experience-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+
+.experience-section .container .works{
+    display: flex;
+    gap: 1.5em;
+    justify-content: space-around;
+
+}
+
+.experience-section .container .works > *{
+    flex-basis: 100%;
+    
+}
+
+
+
+.experience-section .container .works{
+    margin-left: -2em;
+    margin-left: .5em;
+    display: flex;
+    gap: 1.5em;
+    justify-content: space-around;
+}
+.experience-section .container .works > *{
+    flex: 2;
+}
+
+.experience-section .container .works .organization{
+    flex: 1.5;
+    border: 1px solid red;
+}
+
+
+.organization{
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.responsibilities ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.nav-section .experience-title a:nth-child(2){
+    background: white;
+    
+}
+
+.skills{
+    display: none;
+}
+.knowledge{
+    display: none;
+}
+.responsibilities{
+    display: none;
+} 

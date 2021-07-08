@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.introduction{
+
+}
+.introduction .intro-text h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.content-header{
+    display: flex;
+    list-style: none;  
+    margin-top: 15px; 
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: chocolate;
+    text-align: center;
+    color: white;
+  
+
+}
+.content-header > *{
+    flex: 1;
+    border-right: 1px solid #fff;
+    padding: .5em 0;
+
+}
+.contents{
+    display: flex;
+    text-align: center;
+}
+
+.contents > *{
+    flex: 1;
+    padding: 1em;
+    font-size: 18px;
+
+}

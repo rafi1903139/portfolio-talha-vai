@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+}
+.content-name{
+    display: flex;
+    list-style: none;
+    font-size: 1.1em;
+
+}
+.content-name > *{
+    flex: 1;
+    text-align: center;
+    background: purple;
+    color: white;
+    padding: 8px 0;
+    font-weight: bold;
+    border-right: 1px solid white;
+}
+
+.title{
+    flex: 4;
+}
+.organization{
+    flex: 2;
+}
+.duration{
+    flex: 1;
+}
+.year{
+    flex: 1;
+}
+.contents{
+   
+}
+.contents > *{
+    display: flex;
+    margin-top: 15px;
+}
+
+.contents > * > *{
+
+    text-align: center;
+}
+
+
+
+.contents > * > .title h3{
+    width: 90%;
+    margin: auto;
+}
+
+.contents > * > .title p{
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+
+}
