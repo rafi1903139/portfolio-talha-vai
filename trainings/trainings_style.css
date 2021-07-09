@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500&display=swap');
+
+
+
+body{
+    background-color: #EFEFEF;
+    font-family: 'Spectral', serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -23,8 +32,8 @@ main{
 .content-name > *{
     flex: 1;
     text-align: center;
-    background: purple;
-    color: white;
+    background: #0A1931;
+    color: #EFEFEF;
     padding: 8px 0;
     font-weight: bold;
     border-right: 1px solid white;
