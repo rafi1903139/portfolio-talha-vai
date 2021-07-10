@@ -13,24 +13,19 @@ body{
     box-sizing: border-box;
 }
 
-
-
-main{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-
+ul{
+    padding: 0;
 }
+
+
 .content-name{
-    display: flex;
+   
     list-style: none;
     font-size: 1.1em;
 
 }
 .content-name > *{
-    flex: 1;
+   
     text-align: center;
     background: #0A1931;
     color: #EFEFEF;
@@ -39,41 +34,15 @@ main{
     border-right: 1px solid white;
 }
 
-.title{
-    flex: 4;
-}
-.organization{
-    flex: 2;
-}
-.duration{
-    flex: 1;
-}
-.year{
-    flex: 1;
-}
-.contents{
-   
-}
-.contents > *{
-    display: flex;
-    margin-top: 15px;
-}
-
-.contents > * > *{
-
-    text-align: center;
+.col-2{
+    font-size: 1.08em!important;
 }
 
 
 
-.contents > * > .title h3{
-    width: 90%;
-    margin: auto;
-}
 
-.contents > * > .title p{
-    width: 90%;
-    text-align: justify;
-    margin: auto;
 
-}
+
+
+
+
