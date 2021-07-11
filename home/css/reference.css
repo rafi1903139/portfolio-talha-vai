@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500&display=swap');
+
+
+
+body{
+    background-color: #EFEFEF;
+    font-family: 'Spectral', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile-pic{
+    width: 300px;
+    height: 200px;
+    
+    flex: 2;
+}
+.profile-details{
+    flex: 3;
+    margin-left: 1em;
+}
+
+.profile-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#aca-ref-img-1{
+   
+   position: relative;
+   width: 300px;
+   overflow: hidden;
+  
+}
+
+#aca-ref-img-1 img{
+    position: absolute;
+    top: 150px;
+   
+   
+    object-fit: contain;
+    transform: scale(3);
+
+}
+
+#wo-sup-1{
+   
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+}
+
+#wo-sup-1 img{
+    position: absolute;
+    top: 100px;
+    object-fit: contain;
+    transform: scale(3);
+
+}
