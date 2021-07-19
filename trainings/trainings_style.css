@@ -22,6 +22,9 @@ ul{
    
     list-style: none;
     font-size: 1.1em;
+    margin: 1em 0;
+    text-transform: uppercase;
+    font-weight: 500;
 
 }
 .content-name > *{
@@ -29,9 +32,9 @@ ul{
     text-align: center;
     background: #0A1931;
     color: #EFEFEF;
-    padding: 8px 0;
-    font-weight: bold;
+    padding: 8px 15px;
     border-right: 1px solid white;
+
 }
 
 .col-2{
