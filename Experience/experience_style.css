@@ -33,21 +33,22 @@ body{
     top: 0px;
 }
 
-.nav-section .container-fluid{
-    padding-left: 0!important;
-    padding-right: 0!important;
+ul{
+    padding-left: 0;
 }
+
+
 
 .nav-section .experience-title{
     width: 100%;
     top: 1em;
     position: sticky;
-    background: #0A1931;
+ 
    
 }
 
 .nav-section .experience-title ul{
- 
+    background: #0A1931;
     display: flex;
     font-size: 1.2em;
     font-weight: 700;
@@ -56,15 +57,18 @@ body{
 }
 
 .nav-section .experience-title ul > * {
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    border-right: .15em solid #EFEFEF;
     text-align: center;
     flex-grow: 1;
     padding: .5em;
-   
-   
     
+}
 
+.top-left{
+    border-top-left-radius: 8px;
+}
+.bottom-right{
+    border-bottom-right-radius: 8px;
 }
 
 

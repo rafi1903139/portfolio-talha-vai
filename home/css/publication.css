@@ -19,10 +19,6 @@ body{
 }
 
 .main-title{
-    border-top-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    background-color:#0A1931;
-    color: #EFEFEF;
     text-transform: uppercase;
     position: sticky;
     top: 0;
@@ -30,4 +26,21 @@ body{
 }
 .row{
     font-size: 1.1em;
+}
+
+
+
+.main-title .col{
+    background-color:#0A1931;
+    color: #EFEFEF;
+    padding: .5em 0 0 0;
+    margin-right: .15em;
+   
+}
+
+.top-left{
+    border-top-left-radius: 8px;
+}
+.bottom-right{
+    border-bottom-right-radius: 8px;
 }

@@ -29,12 +29,11 @@ main{
     text-transform: uppercase;
 }
 
-.title{
-    background-color: #0A1931;
-    color: #EFEFEF;
-}
+
 
 .title > *{
+    background-color: #0A1931;
+    color: #EFEFEF;
     border-right: 2px solid #EFEFEF;
     text-transform: uppercase;
     padding-top: 15px !important;
@@ -43,6 +42,13 @@ main{
 .title .col:last-child{
     border-right: none;
    
+}
+
+.top-left{
+    border-top-left-radius: 8px;
+}
+.bottom-right{
+    border-bottom-right-radius: 8px;
 }
 
 .content-header{
