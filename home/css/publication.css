@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500&display=swap');
+
+
+
+body{
+    background-color: #EFEFEF;
+    font-family: 'Spectral', serif;
+    overflow-x: hidden;
+}
+
+.type,
+.published-on{
+    text-align: center;
+}
+
+.main-title{
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color:#0A1931;
+    color: #EFEFEF;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    font-size: 1.2em;
+}
+.row{
+    font-size: 1.1em;
+}
