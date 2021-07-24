@@ -62,3 +62,7 @@ body{
     transform: scale(3);
 
 }
+
+.profile-details p{
+    margin-bottom: .4em;
+}
