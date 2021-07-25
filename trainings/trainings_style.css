@@ -40,7 +40,12 @@ ul{
 .col-2{
     font-size: 1.08em!important;
 }
-
+.top-left{
+    border-top-left-radius: 8px;
+}
+.bottom-right{
+    border-bottom-right-radius: 8px;
+}
 
 
 

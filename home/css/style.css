@@ -21,6 +21,8 @@ body{
     z-index: 10000;
 }
 
+
+
 .hero{
     background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);
 }

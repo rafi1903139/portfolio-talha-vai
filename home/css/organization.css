@@ -16,10 +16,23 @@ body{
 }
 
 .title{
-    background-color:#0A1931;
-    color: #EFEFEF;
+
     font-weight: bold;
+    font-size: 1.2em;
     text-transform: uppercase;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
+}
+
+.title > *{
+    background-color:#0A1931;
+    color: #EFEFEF;
+    margin-right: .2em;
+}
+
+.top-left{
+    border-top-left-radius: 8px;
+}
+.bottom-right{
+    border-bottom-right-radius: 8px;
 }
