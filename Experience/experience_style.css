@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600&display=swap');
 
 
 
@@ -51,7 +51,7 @@ ul{
     background: #0A1931;
     display: flex;
     font-size: 1.2em;
-    font-weight: 700;
+    font-weight: 600;
     list-style-type: none;
    
 }
@@ -82,7 +82,6 @@ ul{
 .nav-section .experience-title ul a{
     text-decoration: none;
     color: #EFEFEF;
-    font-weight: 500;
     text-transform: uppercase;
 }
 

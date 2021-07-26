@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600&display=swap');
 
 
 
@@ -13,9 +13,23 @@ body{
     box-sizing: border-box;
 }
 
+.title{
+    background-color: #0A1931;
+    color: #EFEFEF;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
 .navbar{
     z-index: 1000;
     width: 100%;
+}
+
+.intro-text{
+    padding-top: 0!important;
 }
 
 .intro-text h1{
@@ -23,3 +37,20 @@ body{
     text-transform: uppercase;
 }
 
+.top-left{
+    border-top-left-radius: 8px;
+}
+.bottom-right{
+    border-bottom-right-radius: 8px;
+}
+
+h5{
+    margin-bottom: 0;
+    padding: 8px 0;
+}
+
+.secondary-title .col{
+    background-color:#0A1931;
+    color: #EFEFEF;
+    margin-right: .2em;
+}
