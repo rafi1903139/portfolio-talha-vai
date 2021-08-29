@@ -3,7 +3,7 @@
 
 
 body{
-    background-color: #EFEFEF;
+    background-color: #F4EEE8;
     font-family: 'Spectral', serif;
 }
 
@@ -33,11 +33,13 @@ main{
 
 
 .title > *{
-    background-color: #0A1931;
-    color: #EFEFEF;
-    border-right: 2px solid #EFEFEF;
+    background-color: #F5CEBE;
+    color: black;
+    border-right: 2px solid #F4EEE8;
     text-transform: uppercase;
     padding-top: 15px !important;
+    font-weight: 600;
+
      
     
 }

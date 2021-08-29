@@ -3,7 +3,7 @@
 
 
 body{
-    background-color: #EFEFEF;
+    background-color: #F4EEE8;
     font-family: 'Spectral', serif;
 }
 
@@ -30,8 +30,8 @@ ul{
 .content-name > *{
    
     text-align: center;
-    background: #0A1931;
-    color: #EFEFEF;
+    background-color: #F5CEBE;
+    color: black;
     padding: 8px 15px;
     border-right: 1px solid white;
 

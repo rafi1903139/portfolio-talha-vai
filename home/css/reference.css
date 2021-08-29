@@ -3,7 +3,7 @@
 
 
 body{
-    background-color: #EFEFEF;
+    background-color: #F4EEE8;
     font-family: 'Spectral', serif;
 }
 
@@ -65,4 +65,13 @@ body{
 
 .profile-details p{
     margin-bottom: .4em;
+}
+
+h3{
+    background-color: #F5CEBE;
+    color: black;
+    padding: .3em 0;
+    margin: .3em 0;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }

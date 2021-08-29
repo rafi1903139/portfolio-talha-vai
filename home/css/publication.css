@@ -8,7 +8,7 @@
 
 
 body{
-    background-color: #EFEFEF;
+    background-color: #F4EEE8;
     font-family: 'Spectral', serif !important;
     overflow-x: hidden;
 }
@@ -31,8 +31,8 @@ body{
 
 
 .main-title .col{
-    background-color:#0A1931;
-    color: #EFEFEF;
+    background-color: #F5CEBE;
+    color: black;
     padding: .5em 0 0 0;
     margin-right: .15em;
     font-weight: 600;

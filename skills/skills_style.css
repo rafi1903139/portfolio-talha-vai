@@ -3,7 +3,7 @@
 
 
 body{
-    background-color: #EFEFEF;
+    background-color: #F4EEE8;
     font-family: 'Spectral', serif;
 }
 
@@ -14,11 +14,11 @@ body{
 }
 
 .title{
-    background-color: #0A1931;
-    color: #EFEFEF;
+    background-color: #F5CEBE;
+    color: black;
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    text-transform: uppercase;
+  
     font-weight: 600;
     
 }
@@ -50,7 +50,7 @@ h5{
 }
 
 .secondary-title .col{
-    background-color:#0A1931;
-    color: #EFEFEF;
+    background-color: #F5CEBE;
+    color: black;
     margin-right: .2em;
 }

@@ -4,10 +4,22 @@
 }
 
 .navbar{
-
-    
+ 
     text-align: center;
    
-   
-
 }
+
+.navbar{
+    background-color: #114E60!important;
+}
+
+.navbar-nav a{
+    color: #F4EEE8!important;
+}
+
+/*
+    secondary nav
+    
+    background-color: #F5CEBE;
+    color: #114E60;
+*/
