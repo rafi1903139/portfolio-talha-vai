@@ -1,56 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600&display=swap");
 
-
-
-body{
-    background-color: #F4EEE8;
-    font-family: 'Spectral', serif;
+body {
+  background-color: #f4eee8;
+  font-family: "Spectral", serif;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.title{
-    background-color: #F5CEBE;
-    color: black;
-    border-top-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-  
-    font-weight: 600;
-    
+.title {
+  background-color: #f68c00;
+  color: #0c2743;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+  font-weight: 600;
 }
 
-.navbar{
-    z-index: 1000;
-    width: 100%;
+.navbar {
+  z-index: 1000;
+  width: 100%;
 }
 
-.intro-text{
-    padding-top: 0!important;
+.intro-text {
+  padding-top: 0 !important;
 }
 
-.intro-text h1{
-    text-align: center;
-    text-transform: uppercase;
+.intro-text h1 {
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.top-left{
-    border-top-left-radius: 8px;
+.top-left {
+  border-top-left-radius: 8px;
 }
-.bottom-right{
-    border-bottom-right-radius: 8px;
-}
-
-h5{
-    margin-bottom: 0;
-    padding: 8px 0;
+.bottom-right {
+  border-bottom-right-radius: 8px;
 }
 
-.secondary-title .col{
-    background-color: #F5CEBE;
-    color: black;
-    margin-right: .2em;
+h5 {
+  margin-bottom: 0;
+  padding: 8px 0;
+}
+
+.secondary-title .col {
+  background-color: #f68c00;
+  color: #0c2743;
+  margin-right: 0.2em;
 }

@@ -1,58 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600&display=swap");
 
-
-
-body{
-    background-color: #F4EEE8;
-    font-family: 'Spectral', serif;
+body {
+  background-color: #f4eee8;
+  font-family: "Spectral", serif;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-ul{
-    padding: 0;
+ul {
+  padding: 0;
 }
 
-
-.content-name{
-   
-    list-style: none;
-    font-size: 1.15em;
-    margin-bottom: 1em;
-    text-transform: uppercase;
-    font-weight: 600;
-
+.content-name {
+  list-style: none;
+  font-size: 1.15em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
 }
-.content-name > *{
-   
-    text-align: center;
-    background-color: #F5CEBE;
-    color: black;
-    padding: 8px 15px;
-    border-right: 1px solid white;
-
+.content-name > * {
+  text-align: center;
+  background-color: #f68c00;
+  color: #0c2743;
+  padding: 8px 15px;
+  border-right: 1px solid white;
 }
 
-.col-2{
-    font-size: 1.08em!important;
+.col-2 {
+  font-size: 1.08em !important;
 }
-.top-left{
-    border-top-left-radius: 8px;
+.top-left {
+  border-top-left-radius: 8px;
 }
-.bottom-right{
-    border-bottom-right-radius: 8px;
+.bottom-right {
+  border-bottom-right-radius: 8px;
 }
-
-
-
-
-
-
-
-
-
-
