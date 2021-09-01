@@ -28,7 +28,7 @@ main {
 .title > * {
   background-color: #f68c00;
   color: #032d41;
-  border-right: 2px solid #f4eee8;
+  margin-right: 5px;
   text-transform: uppercase;
   padding-top: 15px !important;
   font-weight: 600;
