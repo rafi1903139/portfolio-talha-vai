@@ -28,6 +28,10 @@
   position: absolute;
 }
 
+.radius {
+  border-radius: 8px;
+}
+
 /*
     secondary nav
     

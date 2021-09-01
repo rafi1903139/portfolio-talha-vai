@@ -38,6 +38,8 @@ ul {
 }
 
 .nav-section .experience-title ul {
+  border: 1px solid #f68c00;
+  border-radius: 8px;
   background: #f68c00;
   display: flex;
   font-size: 1.2em;
@@ -46,7 +48,6 @@ ul {
 }
 
 .nav-section .experience-title ul > * {
-  border-right: 0.15em solid #f4eee8;
   text-align: center;
   flex-grow: 1;
   padding: 0.5em;
@@ -118,17 +119,22 @@ ul {
 }
 
 .nav-section .experience-title a:nth-child(2) {
+  border-radius: 5em;
   background: white;
+  border-radius: 5em;
 }
 
 .skills {
   display: none;
+  border-radius: 5em;
 }
 .knowledge {
   display: none;
+  border-radius: 5em;
 }
 .responsibilities {
   display: none;
+  border-radius: 5em;
 }
 
 .organization-logo {
@@ -141,4 +147,31 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+#btnorganization {
+  position: relative;
+}
+
+#btnaccomplishment {
+  position: relative;
+  border-radius: 8px;
+}
+
+#btnrespon {
+  border-radius: 8px;
+}
+
+#btnskills {
+  position: relative;
+  border-radius: 8px;
+}
+
+#btnknowledge {
+  position: relative;
+  border-radius: 8px;
+}
+
+.radius {
+  border-radius: 5em;
 }
