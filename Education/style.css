@@ -45,8 +45,14 @@ h5 {
 .top-left {
   border-top-left-radius: 8px;
 }
+.bottom-left {
+  border-bottom-left-radius: 8px;
+}
 .bottom-right {
   border-bottom-right-radius: 8px;
+}
+.top-right {
+  border-top-right-radius: 8px;
 }
 
 .content-header {
