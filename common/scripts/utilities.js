@@ -22,7 +22,7 @@ var navItems = elmnt.getElementsByTagName('a');
 
 for(var item of navItems)
 {
-  console.log(item.innerHTML, title);
+  //console.log(item.innerHTML, title);
   if(title.toLowerCase() == item.innerHTML.toLowerCase())
   {
     item.classList.add('active');

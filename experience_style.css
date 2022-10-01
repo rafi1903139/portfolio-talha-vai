@@ -39,6 +39,7 @@
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.3s ease;
+    
 }
 
 .content{
@@ -51,6 +52,7 @@
 .show{
     opacity: 1;
     pointer-events: auto;
+    z-index: 99999;
 }
 
 
