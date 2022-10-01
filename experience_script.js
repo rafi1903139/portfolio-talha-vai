@@ -1,5 +1,6 @@
 
 accordion = document.getElementsByClassName('accordion_item')
+//console.log(accordion);
 //console.log(accordion)
 for(i = 0; i < accordion.length; i++)
 {
@@ -19,13 +20,17 @@ for(i = 0; i < accordion.length; i++)
 btnOpenModal = document.getElementsByClassName('btn-open-modal');
 btnCloseModal = document.getElementsByClassName('btn-close-modal');
 
+
 // show modal when the see details button is clicked
 for(var btnOpen of btnOpenModal)
 {
-    
-    btnOpen.addEventListener('click', ()=>{
-        console.log();
-        var container = btnOpen.parentNode.nextElementSibling;
+    //console.log(btnOpen.parentNode);
+
+    btnOpen.addEventListener('click', function (e){
+        
+       var container = this.parentNode.nextElementSibling;
+       
+        //console.log(this.parentNode);
         container.classList.add('show');
     });
 }
@@ -33,8 +38,8 @@ for(var btnOpen of btnOpenModal)
 // close modal when the close button is clicked
 for(var btnClose of btnCloseModal)
 {
-    btnClose.addEventListener('click',()=>{
-        var container = btnClose.parentNode.parentNode.parentNode;
+    btnClose.addEventListener('click',function (e){
+        var container = this.parentNode.parentNode.parentNode;
         container.classList.remove('show');
     });
 }
