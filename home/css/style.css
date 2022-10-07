@@ -48,8 +48,7 @@ body {
   object-fit: cover;
 }
 
-.about-section {
-}
+
 .about-section .container {
   padding: 13em 10em;
 }
@@ -107,3 +106,31 @@ textarea {
   border-radius: 5px;
   border: none;
 }
+
+@media screen and (max-width: 768px) {
+  .profile-container{
+    flex-direction: column !important;
+  }
+
+  .hero .container {
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+    padding-top: 8em !important;
+    padding-bottom: 5em !important;
+  }
+
+  .contact .container{
+    max-width: 100% !important;
+    padding: 2em !important;
+    
+  }
+
+  .form-container{
+    flex-direction: column;
+  }
+
+  textarea{
+    max-width: 100%;
+  }
+}
+

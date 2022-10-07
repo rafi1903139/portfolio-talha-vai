@@ -1,181 +1,117 @@
-@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600&display=swap");
-
+/* @media only screen and (min-width:600px)
+{
+    .card{
+        width: 18rem;
+    }
+} */
 body {
-  background-color: #f4eee8;
-  font-family: "Spectral", serif;
+    background-color: #f4eee8;
+    font-family: "Spectral", serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  
+  h6{
+    font-weight: 600;
+    font-size: 1.1em;
+  }
+  
+:root{
+    --card-width: 18rem;
+    --card-height: 20rem;
+    --card-margin: 16px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.card{
+    max-width: var(--card-width);
+    margin: var(--card-margin);
 }
 
-.navbar {
-  width: 100%;
-  z-index: 1000;
+.card img{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 8rem;
 }
 
-.header h1 {
-  text-align: center;
+.popup-window-container{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    
 }
 
-.nav-section {
-  width: 100%;
-  margin: 0;
-  position: sticky;
-  top: 0px;
+.content{
+    background-color: white;
+    padding: 2em;
+    border-radius: 5px;
+    max-width: 50em;
 }
 
-ul {
-  padding-left: 0;
+.show{
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 99999;
 }
 
-.nav-section .experience-title {
-  width: 100%;
-  top: 1em;
-  position: sticky;
+
+
+.accordion_container .accordion_item{
+    position: relative;
+    margin: 10px 20px;
+    
+}
+.accordion_container .accordion_item .label{
+    position: relative;
+    background-color: rgba(217, 148, 21, 0.891);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+
 }
 
-.nav-section .experience-title ul {
-  border: 1px solid #f68c00;
-  border-radius: 8px;
-  background: #f68c00;
-  display: flex;
-  font-size: 1.2em;
-  font-weight: 600;
-  list-style-type: none;
+.accordion_container .accordion_item .label::before{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
 }
 
-.nav-section .experience-title ul > * {
-  text-align: center;
-  flex-grow: 1;
-  padding: 0.5em;
-  color: #032d41 !important;
+.border{
+    border-radius: 15px !important;
 }
 
-.top-left {
-  border-top-left-radius: 8px;
-}
-.bottom-right {
-  border-bottom-right-radius: 8px;
-}
-
-.nav-section .experience-title ul a > * {
-  flex: 1;
-}
-.nav-section .experience-title ul a:first-child {
-  flex: 11;
+.accordion_container .accordion_item .accordion_content{
+    position: relative;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+    overflow-y:  auto;
+    padding: 0;
 }
 
-.nav-section .experience-title ul a {
-  text-decoration: none;
-  color: #114e60;
-  text-transform: uppercase;
-}
-
-.container {
-  margin: 2em;
-}
-
-.experience-section .container {
-  display: flex;
-  flex-direction: column;
-  gap: 4em;
-}
-
-.experience-section .container .works > * {
-  flex-basis: 100%;
-}
-
-.experience-section .container .works {
-  margin-left: -2em;
-  margin-left: 0.5em;
-  display: flex;
-  gap: 1.5em;
-  justify-content: space-around;
-}
-.experience-section .container .works > * {
-  flex: 2;
-}
-
-.experience-section .container .works .organization {
-  flex: 1.5;
-  /* border: 1px solid red; */
-}
-
-.organization {
-  font-weight: bold;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.responsibilities ul {
-  margin: 0;
-  padding: 0;
-  margin-left: 1rem;
-}
-
-.nav-section .experience-title a:nth-child(2) {
-  border-radius: 5em;
-  background: white;
-  border-radius: 5em;
-}
-
-.skills {
-  display: none;
-  border-radius: 5em;
-}
-.knowledge {
-  display: none;
-  border-radius: 5em;
-}
-.responsibilities {
-  display: none;
-  border-radius: 5em;
-}
-
-.organization-logo {
-  width: 250px;
-  height: 100px;
-
-  margin: auto;
-}
-.organization-logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-#btnorganization {
-  position: relative;
-}
-
-#btnaccomplishment {
-  position: relative;
-  border-radius: 8px;
-}
-
-#btnrespon {
-  border-radius: 8px;
-}
-
-#btnskills {
-  position: relative;
-  border-radius: 8px;
-}
-
-#btnknowledge {
-  position: relative;
-  border-radius: 8px;
-}
-
-.radius {
-  border-radius: 5em;
-}
-
-.tb{
-  font-weight: bold;
+.accordion_container .accordion_item.active .accordion_content{
+    height: 250px;
+    padding: 10px;
 }
