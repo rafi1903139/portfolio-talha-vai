@@ -132,5 +132,10 @@ textarea {
   textarea{
     max-width: 100%;
   }
+
+  .head-color{
+    color: #000000 !important; 
+  }
+  
 }
 

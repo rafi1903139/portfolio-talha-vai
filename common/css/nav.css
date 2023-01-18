@@ -4,12 +4,11 @@
 }
 
 .navbar {
+  z-index: 10000;
   text-align: center;
-}
-
-.navbar {
   background-color: #114e60 !important;
 }
+
 
 .navbar-nav a {
   color: #f4eee8 !important;

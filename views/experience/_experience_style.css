@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600&display=swap");
 
 body {
-  background-color: #f4eee8;
+  background-color: #f4eee8 !important;
   font-family: "Spectral", serif;
 }
 
@@ -11,10 +11,10 @@ body {
   box-sizing: border-box;
 }
 
-.navbar {
+/* .navbar {
   width: 100%;
   z-index: 1000;
-}
+} */
 
 .header h1 {
   text-align: center;
@@ -31,48 +31,7 @@ ul {
   padding-left: 0;
 }
 
-.nav-section .experience-title {
-  width: 100%;
-  top: 1em;
-  position: sticky;
-}
 
-.nav-section .experience-title ul {
-  border: 1px solid #f68c00;
-  border-radius: 8px;
-  background: #f68c00;
-  display: flex;
-  font-size: 1.2em;
-  font-weight: 600;
-  list-style-type: none;
-}
-
-.nav-section .experience-title ul > * {
-  text-align: center;
-  flex-grow: 1;
-  padding: 0.5em;
-  color: #032d41 !important;
-}
-
-.top-left {
-  border-top-left-radius: 8px;
-}
-.bottom-right {
-  border-bottom-right-radius: 8px;
-}
-
-.nav-section .experience-title ul a > * {
-  flex: 1;
-}
-.nav-section .experience-title ul a:first-child {
-  flex: 11;
-}
-
-.nav-section .experience-title ul a {
-  text-decoration: none;
-  color: #114e60;
-  text-transform: uppercase;
-}
 
 .container {
   margin: 2em;
