@@ -20,12 +20,12 @@ body {
   text-align: center;
 }
 
-.nav-section {
+/* .nav-section {
   width: 100%;
   margin: 0;
   position: sticky;
   top: 0px;
-}
+} */
 
 ul {
   padding-left: 0;
@@ -77,11 +77,11 @@ ul {
   margin-left: 1rem;
 }
 
-.nav-section .experience-title a:nth-child(2) {
+/* .nav-section .experience-title a:nth-child(2) {
   border-radius: 5em;
   background: white;
   border-radius: 5em;
-}
+} */
 
 .skills {
   display: none;
