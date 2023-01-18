@@ -28,8 +28,14 @@ body {
     --card-margin: 16px;
 }
 .card-container{
+    padding-top: 5rem;
+    width: 100% ;
+
     display: flex;
+    justify-content: center;
+    
     flex-wrap: wrap;
+    height: 100%;
 }
 
 .card{
